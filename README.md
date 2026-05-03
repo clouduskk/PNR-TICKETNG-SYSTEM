@@ -7,19 +7,21 @@ PNR Ticketing System is a console-based railway ticketing system developed using
 ## Data Structures & Algorithms
 
 ## Data Structure
+ 
+| Data   Structure       | Description                         |
+| -----------------------|----------------------------------- |
+| **Array**              | Stores all station data including station names, base fares, and trip schedules (southbound and northbound). It allows fast access using index and is used when displaying schedules, validating stations, and calculating fares. |
+|   **Linked-List**       |Used in Ticket *ticketHead where each ticket is dynamically created and linked using next. This supports adding tickets, updating or canceling tickets, and traversing all records for display and inspection..        |
+|   **Stack**            | Implemented using an array in Stack. Stores operation history in LIFO order, keeping previous ticket states for tracking and undo purposes.       |
+|   **Queues**           | Implemented using an array in Queue. Stores ticket operations (e.g., ticket issued) in FIFO order to track and display processing actions.      |
 
-| Data Structure | Description                         |
-| -------------- | ----------------------------------- |
-| Array      | Used in stations[MAX_STATIONS] to store station names, base fares, and schedules (southbound and northbound trips). This allows fast indexed access when displaying schedules and computing fares. |
-| Linked-List  | Used in Ticket *ticketHead where each ticket is dynamically created and linked using next. This supports adding tickets (issue), deleting/canceling tickets, and traversing all records.        |
-| Structs | Organizes system data into structured formats for stations and passenger ticket information (name, route, fare, status, etc.).       |
 
 ## Algorithm
 
-| Algorithm      | Description                         |
-| -------------- | ----------------------------------- |
-| Linear Search  | Searches station names by comparing user input with all stored station names in the array. Used to validate origin and destination inputs. |
-| Traversal |Traverses all ticket nodes starting from ticketHead to display, search, filter, and update ticket records.         |
+|   Algorithm         | Description                         |
+| --------------     | ----------------------------------- |
+|  Linear Search     | Searches station names by comparing user input with all stored station names in the array. Used to validate origin and destination inputs. |
+| Bubble Sort |Sorts the linked list of tickets by Ticket ID in ascending order for organized display of ticket history.         |
 
 ## Feature
 
