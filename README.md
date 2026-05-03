@@ -26,23 +26,26 @@ PNR Ticketing System is a console-based railway ticketing system developed using
 ## Feature
 
 
-- **Add Ticket (Issue Ticket)**– Creates a full ticket transaction including passenger details, route selection, schedule assignment, fare computation, discount application, and payment processing.
-- **Cancel Ticket** – Updates ticket status to “Cancelled” using Ticket ID without deleting records from the system.
-- **Inspect Ticket** – Displays complete ticket information including passenger name, origin, destination, schedule, fare, payment method, issue date, and status.
-- **View Ticket History** – Displays all ticket records using linked list traversal, including full history and latest ticket view.
-- **View Schedule** – Displays southbound and northbound train schedules using array-based station data with trip times and fares.
-- **Fare Calculation & Discount System** – Computes fare based on station distance and applies discounts for Student, PWD, and Senior with ID verification.
-- **Payment Processing** – Handles Cash and E-Wallet (GCash/PayMaya), validates payment amount, calculates change, and confirms ticket issuance.
-- **Station Search System** – Validates origin and destination input using linear search in station array.
-- **File Saving & Loading** – Stores ticket records in a binary file (tickets.dat) and reloads them when the system starts for data persistence.
+- **Ticket Management System** – Handles full ticket transactions including issue, inspection, cancellation, and history viewing using a linked list structure.
+- **Schedule Viewing** – Displays southbound and northbound train schedules using station data, including trip times and fares.
+- **Fare & Discount System** – Computes fare based on station difference and applies discounts for Student, PWD, and Senior with ID verification.
+- **Payment Processing** – Supports Cash and E-Wallet (GCash/PayMaya), validates payment, computes change, and confirms ticket issuance.
+- **Station Validation** – Uses linear search to verify origin and destination stations before ticket creation.
+- **Operation Tracking** – Uses Queue (FIFO) to record ticket actions and Stack (LIFO) to store operation history.
+- **Data Management** – Stores ticket records using a linked list and ensures persistence through binary file saving and loading (tickets.dat).
+
 
 ## How to Compile and Run
 
 ### Requirements
+```
+Any C compiler (preferably Dev-C++ on Windows or GCC with Windows support)
+```
 
-- GCC-compatible compiler (MinGW included in Dev-C++)
-### Run
+### Run steps
+```
 - Open Dev-C++
 - Select main.c file
 - Click Compile & Run or press F11
+```
 
