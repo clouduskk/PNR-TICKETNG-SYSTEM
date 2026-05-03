@@ -49,3 +49,24 @@ Any C compiler (preferably Dev-C++ on Windows or GCC with Windows support)
 - Click Compile & Run or press F11
 ```
 
+## Menu Navigation 
+
+```
+---------- PNR TICKETING SYSTEM ----------
+1. View Schedule
+2. Issue Ticket
+3. Cancel Ticket
+4. Inspection of Ticket
+5. History
+6. Exit
+```
+[5]
+```
+------ OPTIONS ------
+1. View Confirmed Tickets
+2. View Cancelled Tickets
+3. Reset All Records
+4. Back to Main Menu
+```
+
+
