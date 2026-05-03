@@ -13,7 +13,7 @@ PNR Ticketing System is a console-based railway ticketing system developed using
 | **Array**              | Stores all station data including station names, base fares, and trip schedules (southbound and northbound). It allows fast access using index and is used when displaying schedules, validating stations, and calculating fares. |
 |   **Linked-List**       |Used in Ticket *ticketHead where each ticket is dynamically created and linked using next. This supports adding tickets, updating or canceling tickets, and traversing all records for display and inspection.        |
 |   **Stack**            | Implemented using an array in Stack. Stores operation history in LIFO order, keeping previous ticket states for tracking and undo purposes.       |
-|   **Queues**           | Implemented using an array in Queue. Stores ticket operations (e.g., ticket issued) in FIFO order to track and display processing actions.      |
+|   **Queues**           |Implemented using an array in Queue. Stores ticket operations (e.g., ticket issued) in FIFO order to track and display system operations.   |
 
 
 ## Algorithm
